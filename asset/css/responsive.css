@@ -1,0 +1,559 @@
+
+@media (min-width: 768px) {
+    #navbar  .logo-hidden{
+        display: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #banner .overly .b-tp {
+  margin-top: 160px;
+}
+#benifits .cards .card {
+  width: 17.92%;}
+#banner .overly .b-tp h1{
+  font-size: 50px !important;
+}
+#service .ser-text-part {
+  margin-top: 25px;
+}
+  #banner .overly .b-tp .city-loc{
+    bottom: 0;
+    width: 100%;
+  }
+  #banner .overly .b-tp .city-loc {
+    bottom: 12px;
+}
+#banner .overly .photo-part .rel-p-1, #banner .overly .photo-part .rel-p-3, #banner .overly .photo-part .rel-p-2{
+     display: none;
+}
+
+#banner .overly .b-tp .city-loc ul li{
+  margin-right: 30px;
+  text-align: center;
+}
+#banner .overly .photo-part .photo-part-main{
+  width: 100%;
+}
+#gallary{
+  text-align: center !important;
+}
+#gallary .img-fl{
+  width: 100%;
+  margin-top: 20px;
+}
+#gallary .gallary-headaer{
+text-align: center !important;
+}
+#gallary .gallary-photo{
+  padding: 0px 17%;
+}
+#gallary .gal-gel{
+  width: 100%;
+}
+#vission .photo-part .img-2 {
+  right: 26%;}
+#vission .photo-part .img-3 {
+  top: 24%;
+  right: 4%;}
+#vission .photo-part .img-4 {
+  bottom: 25%;
+  right: 26%;}
+#member .img-part img{
+  width: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #banner .overly .b-tp::after{
+    display: none;
+  }
+  #banner .overly .photo-part::after{
+    display: none;
+  }
+  #banner .overly .b-tp{
+    margin-top: 30px;
+    text-align: center;
+  }
+  #banner .overly{
+    padding-top: 120px;
+    background-color: #f1f1f17a;
+  }
+  #banner .overly .b-tp .city-loc{
+    bottom: 0;
+    width: 100%;
+  }
+  #banner .overly .b-tp h1{
+    padding-bottom: 200px;
+  }
+  #banner .overly .b-tp .city-loc {
+    bottom: 12px;
+}
+#banner .overly .photo-part .rel-p-1, #banner .overly .photo-part .rel-p-3, #banner .overly .photo-part .rel-p-2{
+     display: none;
+}
+#banner .overly .photo-part{
+     position: absolute;
+    top: -102px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+#banner .overly .photo-part .photo-part-main{
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    width: 100%;
+}
+#banner .overly .b-tp .city-loc ul li{
+  margin-right: 30px;
+  text-align: center;
+}
+#logo {
+  margin-top: 40rem;
+}
+#service .ser-text-part {
+  margin-top: 0;
+  padding-left: 0;
+}
+#vission .photo-part{
+  margin-top: 58px;
+}
+#vission .photo-part .img-2 {
+  right: 17%;}
+  #vission .photo-part .img-3 {
+  right: 2%;}
+  #vission .photo-part .img-4 {
+  bottom: 6%;
+  right: 17%;}
+  #solution .text-part button{
+    margin-bottom: 20px;
+  }
+  #benifits .cards .card{
+    width: 45%;
+  }
+  #gallary {
+  margin-top: 100px;
+}
+#gallary .img-fl{
+  width: 100%;
+  margin-top: 30px;
+}
+#member {
+  margin-top: 100px;
+}
+#member .img-part img{
+  width: 100%;
+}
+#member .member-text {
+  padding: 0% 0px;
+}
+}
+/* #navbar  .logo-hidden{
+     margin-left: 10px;
+}
+#navbar{margin-top: 0;
+  z-index: 999;
+  text-align: center;
+  background-color: #f1f1f1e7;
+}
+#benifits .cards .card{
+  width: 100%;
+} */
+
+@media (min-width: 576px) and (max-width: 767px) {
+#navbar .logo{
+   display: none;
+}
+#navbar  .logo-hidden{
+     margin-left: 10px;
+}
+#navbar{margin-top: 0;
+  z-index: 999;
+  text-align: center;
+  background-color: #f1f1f1e7;
+}
+
+#navbar{margin-top: 0;
+  z-index: 999;
+  text-align: center;
+}
+#navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+  }
+  #navber .navbar-nav{
+    margin-bottom: 0 !important;
+  }
+  #navber .navbar-nav li {
+    margin-right: 0;
+  }
+
+  #navber .navbar-nav {
+    line-height: 40px;
+  }
+  #banner .overly .b-tp::after{
+    display: none;
+  }
+  #banner .overly .photo-part::after{
+    display: none;
+  }
+  #banner .overly .b-tp{
+    margin-top: 0;
+    text-align: center;
+  }
+  #banner .overly{
+    padding-top: 120px;
+    background-color: #f1f1f17a;
+  }
+  #banner .overly .b-tp .city-loc{
+    bottom: 0;
+    width: 100%;
+  }
+  #banner .overly .b-tp h1{
+      font-size: 29px !important;
+    padding-bottom: 200px;
+  }
+  #banner .overly .b-tp .city-loc {
+    bottom: 12px;
+}
+#banner .overly .photo-part .rel-p-1, #banner .overly .photo-part .rel-p-3, #banner .overly .photo-part .rel-p-2{
+     display: none;
+}
+#banner .overly .photo-part{
+     position: absolute;
+    top: -102px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+#banner .overly .photo-part .photo-part-main{
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    width: 100%;
+}
+#banner .overly .b-tp .city-loc ul li{
+  margin-right: 30px;
+  text-align: center;
+}
+#banner .overly .b-tp .city-loc ul li:last-child{
+    margin-top: 20px;
+    margin-left: 25%;
+}
+#logo {
+  margin-top: 32rem;
+}
+#service {
+  margin-top: 40px;
+}
+#service .ser-text-part {
+  margin-top: 45px;
+  padding: 0px 15px;
+}
+#service .ser-text-part .button-part {
+  margin-top: 40px;
+  justify-content: center    ;
+}
+#vission {
+  margin-top: 70px;
+}
+#vission .text-part{
+  text-align: center;
+}
+
+#vission .cards .card{
+  width: 45% ;
+  margin-top: 70px !important;
+}
+#vission .cards .card .icon{
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  top: -30px;
+}
+#vission .photo-part{
+  margin-top: 80px;
+}
+#vission .photo-part .img-1,#vission .photo-part .img-3{
+  width: 100px;
+}
+#vission .photo-part .img-1{
+top: -9%;
+right: 6%;
+}
+#vission .photo-part .img-2 {
+  top: 4%;
+ right: 20%;
+}
+#vission .photo-part .img-3 {
+  top: 45%;
+right: 8%;}
+#vission .photo-part .img-4 {
+  bottom: -10%;
+  right: 21%;}
+#vission .photo-part .img-4,#vission .photo-part .img-2{
+  width: 250px;
+}
+#vission .photo-part  .imgback {
+  margin-left: 0 !important;
+}
+#solution{
+  margin-top: 80px;
+}
+#solution .text-part button{
+  margin-bottom: 30px;
+}
+#benifits {
+  margin-top: 70px;
+}
+#benifits .cards .card{
+  text-align: center;
+  width: 40%;
+}
+#gallary {
+  margin-top: 70px;
+}
+#gallary .gallary-photo .f-row img:first-child{
+  width: 45%;
+}
+#gallary .gallary-photo .f-row img:last-child{
+  width: 52%;
+}
+#gallary .img-fl img{
+   width: 100%;
+   margin-top: 20px;
+}
+#member {
+  margin-top: 70px;
+}
+#member .member-text {
+  padding: 0% 0px;
+}
+#member .img-part{
+  margin-top: 20px;
+}
+#member .img-part img{
+  width: 100%;
+}
+#footer .overly .f-2 h3{
+  margin-top: 20px;
+}
+}
+
+@media (max-width: 575.98px) {
+#navbar .logo{
+   display: none;
+}
+#navbar  .logo-hidden{
+     margin-left: 10px;
+}
+#navbar{margin-top: 0;
+  z-index: 999;
+  text-align: center;
+  background-color: #f1f1f1e7;
+}
+#navbar .navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+  }
+  #navber .navbar-nav{
+    margin-bottom: 0 !important;
+  }
+  #navber .navbar-nav li {
+    margin-right: 0;
+    line-height: 30px;
+  }
+
+  #navber .navbar-nav {
+    line-height: 40px;
+  }
+  #banner .overly .b-tp::after{
+    display: none;
+  }
+  #banner .overly .photo-part::after{
+    display: none;
+  }
+  #banner .overly .b-tp{
+    margin-top: 0;
+    text-align: center;
+  }
+  #banner .overly{
+    padding-top: 120px;
+    background-color: #f1f1f17a;
+  }
+  #banner .overly .b-tp .city-loc{
+    bottom: 0;
+    width: 100%;
+  }
+  #banner .overly .b-tp h1{
+      font-size: 29px !important;
+    padding-bottom: 200px;
+  }
+  #banner .overly .b-tp .city-loc {
+    bottom: 12px;
+}
+#banner .overly .photo-part .rel-p-1, #banner .overly .photo-part .rel-p-3, #banner .overly .photo-part .rel-p-2{
+     display: none;
+}
+#banner .overly .photo-part{
+     position: absolute;
+    top: -102px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+#banner .overly .photo-part .photo-part-main{
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    width: 100%;
+}
+#banner .overly .b-tp .city-loc ul li{
+  margin-right: 30px;
+  text-align: center;
+}
+#banner .overly .b-tp .city-loc ul li:last-child{
+    margin-top: 20px;
+    margin-left: 25%;
+}
+#logo {
+  margin-top: 32rem;
+}
+#service {
+  margin-top: 40px;
+}
+#service .ser-text-part {
+  margin-top: 45px;
+  text-align: center;
+  padding: 0px 15px;
+}
+#service .ser-text-part h2{
+  font-size: 38px !important;
+  
+}
+#service .ser-text-part .button-part {
+  margin-top: 40px;
+  justify-content: center    ;
+}
+#vission {
+  margin-top: 70px;
+}
+#vission .text-part{
+  text-align: center;
+}
+#vission .text-part h3{
+   font-size: 38px !important;
+}
+#vission .cards .card{
+  width: 100%;
+  margin-top: 70px !important;
+}
+#vission{
+  text-align: center;
+}
+#vission .cards .card .icon{
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  top: -30px;
+}
+#vission .photo-part{
+  margin-top: 80px;
+}
+#vission .photo-part .img-1,#vission .photo-part .img-3{
+  width: 75px;
+}
+#vission .photo-part .img-1{
+top: -9%;
+right: 6%;
+}
+#vission .photo-part .img-2 {
+  top: 4%;
+  right: 25%;
+}
+#vission .photo-part .img-3 {
+  top: 43%;
+  right: 9%;}
+#vission .photo-part .img-4 {
+  bottom: -10%;
+  right: 26%;}
+#vission .photo-part .img-4,#vission .photo-part .img-2{
+  width: 150px;
+}
+#vission .photo-part  .imgback {
+  margin-left: 0 !important;
+}
+#solution{
+  margin-top: 80px;
+  text-align: center;
+}
+#solution .text-part h3{
+  margin-top: 20px;
+  font-size: 38px;
+}
+#solution .text-part p{
+  margin-top: 20px;
+}
+#solution .slider {
+  margin-top: 30px;
+}
+#benifits {
+  margin-top: 70px;
+}
+#benifits .header-part h3{
+  font-size: 32px;
+}
+#benifits .cards .card{
+  width: 100%;
+}
+#gallary {
+  margin-top: 70px;
+  text-align: center !important;
+}
+#gallary .gallary-headaer{
+text-align: center !important;
+}
+#gallary .gallary-headaer h3{
+  margin-top: 10px;
+  font-size: 32px;
+}
+#gallary .gallary-photo .f-row img{
+   width: 100%;
+}
+#gallary .img-fl img{
+  width: 100%;
+}
+#member {
+  margin-top: 80px;
+  text-align: center!important;
+}
+#member .member-text h3{
+  font-size: 32px;
+}
+#member .member-text ul {
+  justify-content: center;
+  margin-top: 40px;
+}
+#member .img-part .position-img, #member .img-part .b-r-img{
+  width: 100%;
+}
+#footer{
+  text-align: center;
+}
+#footer .f-i ul{
+  justify-content: center;
+}
+#footer .overly .f-2 h3{
+  margin-top: 20px;
+}
+}

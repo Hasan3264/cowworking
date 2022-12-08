@@ -1,0 +1,20 @@
+@import "../Variable/fontfamily";
+@import "../basic/_common";
+@import "../mixinit/fontStyle";
+
+#gallary{
+    margin-top: 180px;
+    .gallary-headaer{
+        p{
+            @include fontstyle($gilroy, 18px, 300, #FD5B2F);
+        }
+        
+        h3 {
+            margin-top: 15px;
+            @include fontstyle($gilroy, 46px, 400, #000);
+        }
+    }
+    .gallary-photo{
+        margin-top: 44px;
+    }
+}

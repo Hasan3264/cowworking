@@ -1,0 +1,1282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+.manu-fix {
+  margin-top: 0px !important;
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  width: 100%;
+  line-height: 50px !important;
+  z-index: 999;
+  background: #fff;
+}
+
+#navbar {
+  position: relative;
+  line-height: 41px;
+  margin-top: 80px;
+}
+#navbar ul {
+  z-index: 99;
+}
+#navbar ul li a {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px !important;
+  font-family: "chiraPro", sans-serif;
+  transition: all linear 0.6s;
+  -webkit-transition: all linear 0.6s;
+  -moz-transition: all linear 0.6s;
+  -ms-transition: all linear 0.6s;
+  -o-transition: all linear 0.6s;
+  position: relative;
+}
+#navbar ul li a::after {
+  position: absolute;
+  content: " ";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, rgba(255, 219, 128, 0.8274509804) 7%, #47cbf3 100%);
+  transform-origin: right center;
+  transform: scale(0, 1);
+  transition: transform 0.6s ease;
+  -webkit-transition: transform 0.6s ease;
+  -moz-transition: transform 0.6s ease;
+  -ms-transition: transform 0.6s ease;
+  -o-transition: transform 0.6s ease;
+}
+#navbar ul li a:hover::after {
+  transform-origin: left center;
+  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transition: transform 0.6s ease;
+  -webkit-transition: transform 0.6s ease;
+  -moz-transition: transform 0.6s ease;
+  -ms-transition: transform 0.6s ease;
+  -o-transition: transform 0.6s ease;
+}
+#navbar ul li a.active::after {
+  transform-origin: left center;
+  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transition: transform 0.6s ease;
+  -webkit-transition: transform 0.6s ease;
+  -moz-transition: transform 0.6s ease;
+  -ms-transition: transform 0.6s ease;
+  -o-transition: transform 0.6s ease;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#banner .overly {
+  padding-top: 140px;
+  background-color: rgba(241, 241, 241, 0.815);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#banner .overly .b-tp {
+  margin-top: 250px;
+  position: relative;
+}
+#banner .overly .b-tp h1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 58px !important;
+  font-family: "axit", sans-serif;
+}
+#banner .overly .b-tp::after {
+  content: "";
+  position: absolute;
+  top: -80%;
+  left: -42%;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: rgba(255, 219, 128, 0.768627451);
+  z-index: -1;
+  box-shadow: 19px 0px 0px 42px rgba(255, 219, 128, 0.768627451);
+}
+#banner .overly .b-tp .city-loc {
+  z-index: 99;
+  background-color: rgba(241, 241, 241, 0.733);
+  width: 777px;
+  padding: 38px 0px;
+  position: absolute;
+  bottom: 130px;
+  left: 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#banner .overly .b-tp .city-loc ul {
+  justify-content: space-between;
+}
+#banner .overly .b-tp .city-loc ul li {
+  color: #989898;
+  font-weight: 300;
+  font-size: 18px !important;
+  font-family: "chiraPro", sans-serif;
+}
+#banner .overly .b-tp .city-loc ul li button {
+  border: none;
+  padding: 14px 28px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #FD5B2F;
+  color: #fff;
+}
+#banner .overly .b-tp .city-loc ul li button:hover {
+  box-shadow: 0px 4px 8px #FD5B2F;
+}
+#banner .overly .photo-part {
+  margin-top: 100px;
+  position: relative;
+}
+#banner .overly .photo-part .photo-part-main {
+  border-radius: 293px 293px 0px 0px;
+  -webkit-border-radius: 293px 293px 0px 0px;
+  -moz-border-radius: 293px 293px 0px 0px;
+  -ms-border-radius: 293px 293px 0px 0px;
+  -o-border-radius: 293px 293px 0px 0px;
+}
+#banner .overly .photo-part::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -33%;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: rgba(71, 203, 243, 0.6862745098);
+  z-index: -1;
+  box-shadow: 0px 0px 40px 29px rgba(71, 203, 243, 0.6431372549);
+}
+#banner .overly .photo-part .rel-p-1 {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+}
+#banner .overly .photo-part .rel-p-3 {
+  position: absolute;
+  top: 109px;
+  right: -150px;
+}
+#banner .overly .photo-part .rel-p-2 {
+  position: absolute;
+  top: 240px;
+  right: -155px;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#logo {
+  margin-top: 65rem;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#service {
+  margin-top: 140px;
+}
+#service .img-part {
+  padding: 15px;
+  position: relative;
+}
+#service .img-part img {
+  border-radius: 266px 266px 0px 0px;
+  -webkit-border-radius: 266px 266px 0px 0px;
+  -moz-border-radius: 266px 266px 0px 0px;
+  -ms-border-radius: 266px 266px 0px 0px;
+  -o-border-radius: 266px 266px 0px 0px;
+}
+#service .img-part .img-p-po {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#service .ser-text-part {
+  margin-top: 210px;
+  padding-left: 64px;
+}
+#service .ser-text-part a {
+  color: #FD5B2F;
+  font-weight: 400;
+  font-size: 18px !important;
+  font-family: "gilroy", sans-serif;
+}
+#service .ser-text-part h2 {
+  margin-top: 20px;
+  color: #000;
+  font-weight: 400;
+  font-size: 48px !important;
+  font-family: "gilroy", sans-serif;
+}
+#service .ser-text-part p {
+  margin-top: 15px;
+  color: #000;
+  font-weight: 400;
+  font-size: 15px !important;
+  font-family: "gilroy", sans-serif;
+}
+#service .ser-text-part .button-part {
+  margin-top: 80px;
+}
+#service .ser-text-part .button-part button {
+  border: 1px solid #FD5B2F;
+  color: #000;
+  font-weight: 400;
+  font-size: 15px !important;
+  font-family: "gilroy", sans-serif;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+#service .ser-text-part .button-part button:hover {
+  background-color: #FD5B2F;
+  color: #fff;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#vission {
+  margin-top: 150px;
+}
+#vission .text-part a {
+  color: #FD5B2F;
+  font-weight: 400;
+  font-size: 18px !important;
+  font-family: "gilroy", sans-serif;
+}
+#vission .text-part h3 {
+  margin-top: 30px;
+  color: #000;
+  font-weight: 400;
+  font-size: 45px;
+  font-family: "gilroy", sans-serif;
+}
+#vission .text-part p {
+  margin-top: 30px;
+  color: #000;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "gilroy", sans-serif;
+}
+#vission .cards {
+  margin-top: 30px;
+}
+#vission .cards .card {
+  width: 46.2%;
+  border: none;
+  margin-right: 20px;
+  position: relative;
+}
+#vission .cards .card .text-card {
+  padding-left: 30px;
+}
+#vission .cards .card .text-card h5 {
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "gilroy", sans-serif;
+}
+#vission .cards .card .text-card p {
+  color: #000;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "gilroy", sans-serif;
+}
+#vission .cards .card .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#vission button {
+  margin-top: 50px;
+  background-color: #FD5B2F;
+  color: #fff;
+}
+#vission .photo-part {
+  position: relative;
+}
+#vission .photo-part .img-1 {
+  position: absolute;
+  top: -13%;
+  right: 0%;
+  width: 150px;
+}
+#vission .photo-part .img-2 {
+  position: absolute;
+  top: 0%;
+  right: 22%;
+  width: 250px;
+}
+#vission .photo-part .img-3 {
+  position: absolute;
+  top: 29%;
+  right: 3%;
+  width: 150px;
+}
+#vission .photo-part .img-4 {
+  position: absolute;
+  bottom: -5%;
+  right: 22%;
+  width: 300px;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#solution {
+  margin-top: 170px;
+}
+#solution .text-part a {
+  color: #FD5B2F;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "gilroy", sans-serif;
+}
+#solution .text-part h3 {
+  margin-top: 30px;
+  color: #000;
+  font-weight: 400;
+  font-size: 45px;
+  font-family: "gilroy", sans-serif;
+}
+#solution .text-part p {
+  margin-top: 30px;
+  color: #000;
+  font-weight: 400;
+  font-size: 13px;
+  font-family: "gilroy", sans-serif;
+}
+#solution .text-part button {
+  margin-top: 50px;
+  background-color: #FD5B2F;
+  color: #fff;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#benifits {
+  margin-top: 150px;
+}
+#benifits .header-part p {
+  color: #FD5B2F;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "gilroy", sans-serif;
+}
+#benifits .header-part h3 {
+  margin-top: 15px;
+  color: #000;
+  font-weight: 400;
+  font-size: 52px;
+  font-family: "gilroy", sans-serif;
+}
+#benifits .cards {
+  margin-top: 20px;
+}
+#benifits .cards .card {
+  width: 18.92%;
+  border: none;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+#benifits .cards .card img {
+  align-self: center;
+  width: 52px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+#benifits .cards .card h5 {
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "gilroy", sans-serif;
+  margin-bottom: 15px;
+}
+#benifits .cards .card p {
+  color: #000;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "gilroy", sans-serif;
+}
+#benifits .cards .card:last-child {
+  margin-right: 0;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#gallary {
+  margin-top: 180px;
+}
+#gallary .gallary-headaer p {
+  color: #FD5B2F;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "gilroy", sans-serif;
+}
+#gallary .gallary-headaer h3 {
+  margin-top: 15px;
+  color: #000;
+  font-weight: 400;
+  font-size: 46px;
+  font-family: "gilroy", sans-serif;
+}
+#gallary .gallary-photo {
+  margin-top: 44px;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#member {
+  margin-top: 150px;
+}
+#member .member-text {
+  padding: 15% 0px;
+}
+#member .member-text span {
+  color: #FD5B2F;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "gilroy", sans-serif;
+}
+#member .member-text h3 {
+  margin-top: 15px;
+  color: #000;
+  font-weight: 400;
+  font-size: 46px;
+  font-family: "gilroy", sans-serif;
+}
+#member .member-text p {
+  margin-top: 20px;
+  color: #000;
+  font-weight: 400;
+  font-size: 12px;
+  font-family: "gilroy", sans-serif;
+}
+#member .member-text ul {
+  margin-top: 60px;
+}
+#member .member-text ul li {
+  margin-right: 20px;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "gilroy", sans-serif;
+}
+#member .member-text ul li button {
+  border: 1px solid #FD5B2F;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+#member .member-text ul li button:hover {
+  background-color: #FD5B2F;
+  color: #fff;
+}
+#member .img-part {
+  position: relative;
+  padding: 20px;
+}
+#member .img-part .b-r-img {
+  border-radius: 230px 230px 0px 0px;
+  -webkit-border-radius: 230px 230px 0px 0px;
+  -moz-border-radius: 230px 230px 0px 0px;
+  -ms-border-radius: 230px 230px 0px 0px;
+  -o-border-radius: 230px 230px 0px 0px;
+}
+#member .img-part .position-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+@font-face {
+  src: url(../cherafro/FontsFree-Net-cor3.ttf);
+  font-family: "chiraPro", sans-serif;
+}
+@font-face {
+  src: url(../axit/FontsFree-Net-Axiforma3woff2.ttf);
+  font-family: "axit", sans-serif;
+}
+@font-face {
+  src: url(../gilroy/Gilroy-Light.otf);
+  font-family: "gilroy", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* ======================================  common css end  ============================================ */
+/* ======================================   css  ============================================ */
+/* ======================================   css  ============================================ */
+/* footer part end */
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  background: #000;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  z-index: 999;
+  border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  -moz-border-radius: 20px 0px;
+  -ms-border-radius: 20px 0px;
+  -o-border-radius: 20px 0px;
+}
+
+#footer {
+  margin-top: 30px;
+}
+#footer .overly {
+  padding: 120px 0px;
+  background: linear-gradient(180deg, rgba(253, 91, 47, 0) 0%, rgb(245, 189, 174) 100%);
+}
+#footer .overly .f-1 p {
+  margin-top: 24px;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "gilroy", sans-serif;
+}
+#footer .overly .f-2 h3 {
+  color: #FD5B2F;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "gilroy", sans-serif;
+  margin-bottom: 20px;
+}
+#footer .overly .f-2 ul li {
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "gilroy", sans-serif;
+}
+#footer .overly .f-i ul li a {
+  color: #FD5B2F;
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */

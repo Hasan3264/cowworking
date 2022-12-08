@@ -1,0 +1,40 @@
+@import "../Variable/fontfamily";
+@import "../basic/_common";
+@import "../mixinit/fontStyle";
+#footer{
+  margin-top: 30px;
+ 
+ .overly{
+     padding: 120px 0px;
+     background:  linear-gradient(180deg, rgba(253, 91, 47, 0) 0%, rgb(245, 189, 174) 100%);
+     .f-1{
+        p{
+            margin-top: 24px;
+             @include fontstyle($gilroy, 16px, 400, #000);
+        }
+     }
+     .f-2{
+        h3{
+              @include fontstyle($gilroy, 18px, 300, #FD5B2F);
+              margin-bottom: 20px;
+        }
+        ul{
+            li{
+                margin-bottom: 10px;
+                 @include fontstyle($gilroy, 16px, 400, #000);
+            }
+        }
+     }
+     .f-i{
+        ul{
+            li{
+               a{
+                color: #FD5B2F;
+                margin-right: 20px;
+               }
+        }
+    }
+     }
+ }
+
+}

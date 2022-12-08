@@ -1,0 +1,55 @@
+@import "../Variable/fontfamily";
+@import "../basic/_common";
+@import "../mixinit/fontStyle";
+#service{
+    margin-top: 140px;
+    .img-part{
+        padding: 15px;
+        img{
+        border-radius: 266px 266px 0px 0px;
+        -webkit-border-radius: 266px 266px 0px 0px;
+        -moz-border-radius: 266px 266px 0px 0px;
+        -ms-border-radius: 266px 266px 0px 0px;
+        -o-border-radius: 266px 266px 0px 0px;
+        }
+        position: relative;
+        .img-p-po{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }  
+}
+.ser-text-part{
+    margin-top: 210px;
+    padding-left: 64px;
+    a{
+         @include fontstyle($gilroy, 18px !important, 400, #FD5B2F);
+        }
+        h2{
+            margin-top: 20px;
+        @include fontstyle($gilroy, 48px !important, 400, #000);
+        
+    }
+    p{
+        margin-top: 15px;
+        @include fontstyle($gilroy, 15px !important, 400, #000);
+    }
+    .button-part{
+        margin-top: 80px;
+       button{
+         border: 1px solid #FD5B2F;
+          @include fontstyle($gilroy, 15px !important, 400, #000);
+           transition: all linear .3s;
+                -webkit-transition: all linear .3s;
+                -moz-transition: all linear .3s;
+                -ms-transition: all linear .3s;
+                -o-transition: all linear .3s;
+         &:hover{
+            background-color: #FD5B2F;
+            color: #fff;
+            
+         }
+       }
+    }
+}
+}
